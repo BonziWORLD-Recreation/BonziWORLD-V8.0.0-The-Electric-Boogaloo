@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BonziWORLD</title>
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="login-window" class="window">
+    <div class="title-bar">
+      <div class="title-bar-text">BonziWORLD Login</div>
+    </div>
+    <div class="window-body">
+      <input type="text" id="nickname" placeholder="Nickname">
+      <input type="text" id="room-id" placeholder="Room ID" value="default">
+      <button id="join-btn">Join</button>
+    </div>
+  </div>
+
+  <div id="game-container" style="display:none;">
+    <div id="bonzi-container"></div>
+    <div id="chat-bar">
+      <input type="text" id="chat-input">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
