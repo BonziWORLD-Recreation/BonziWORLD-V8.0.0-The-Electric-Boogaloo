@@ -1,0 +1,41 @@
+body {
+  font-family: 'MS Sans Serif', sans-serif;
+  background-color: #008080;
+}
+
+#bonzi-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.bonzi {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  cursor: move;
+}
+
+.speech-bubble {
+  position: absolute;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.nametag {
+  position: absolute;
+  background: beige;
+  padding: 2px 5px;
+  border-radius: 5px;
+  top: -20px;
+}
+
+#chat-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #c0c0c0;
+  padding: 10px;
+}
