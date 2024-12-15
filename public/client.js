@@ -21,7 +21,7 @@ function initBonzi(nickname) {
   stage = new createjs.Stage(canvas);
   
   const spriteSheet = new createjs.SpriteSheet({
-    images: ['https://raw.githubusercontent.com/bonziworld29/BonziWORLD-Revived-Server/main/client/www/img/agents/purple.png'],
+    images: ['https://raw.githubusercontent.com/Rafafrias2012/BonziWORLD-Rebooted/refs/heads/main/build/www/img/bonzi/purple.png'],
     frames: {
       width: 200,
       height: 160
